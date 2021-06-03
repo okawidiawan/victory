@@ -1,0 +1,278 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-repeat: no-repeat;
+
+}
+
+/* Font */
+h3 p {
+    font-family: 'Montserrat';
+}
+
+/* End Font */
+
+/* Navigation Bar */
+.navbar {
+    background-color: white;
+    box-shadow: 0px 1px 5px 0px #f1f1f1;
+}
+
+.navbar-brand img {
+    width: 140px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    margin: auto;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item a {
+    color: #000000 !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #FF7ECB !important;
+}
+
+
+a.btn.btn-block.btn-sm.w-sm-auto {
+    padding: 4px 30px;
+    background-color: #FF7ECB;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: auto;
+    transition: background-color 0.5s;
+}
+
+a.btn.btn-block.btn-sm.w-sm-auto:hover {
+    background-color: #EC008C;
+}
+
+/* End Navigation Bar */
+
+/* Hero */
+.hero {
+    margin-top: 150px;
+}
+
+.hero h1 {
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-weight: 700;
+    color: #EC008C;
+    user-select: none;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #707070;
+    user-select: none;
+    text-align: justify;
+}
+
+.hero img {
+    user-select: none;
+}
+
+.hero-text {
+    order: 1;
+}
+
+.hero-pic {
+    order: 2;
+}
+
+/* End Hero */
+
+/* Main */
+.main {
+    margin-top: 70px;
+}
+
+.main h3 {
+    font-family: 'Poppins';
+    font-family: 'Tahoma';
+    font-weight: 700;
+    color: #EC008C;
+    font-size: 32px;
+    user-select: none;
+}
+
+.main p {
+    font-weight: 200;
+    color: black;
+    text-align: justify;
+    line-height: 30px;
+    user-select: none;
+}
+
+/* End Main */
+
+/* Hiring */
+.hiring {
+    margin-top: 50px;
+}
+
+.hiring .row {
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 5px 5px 0px rgba(231, 231, 231, 1);
+}
+
+.hiring h5 {
+    letter-spacing: 7px;
+    font-weight: 600;
+    user-select: none;
+}
+
+.hiring h2 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    user-select: none;
+}
+
+.hiring a {
+    text-decoration: none;
+    background-color: #FE65BF;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 20px;
+    transition: box-shadow 0.5s;
+}
+
+.hiring a:hover {
+    box-shadow: 0px 5px 5px 0px rgba(231, 231, 231, 1);
+}
+
+/* End Hiring */
+
+/* Contact Us */
+.contact-us {
+    margin-top: 100px;
+}
+
+.contact-us .box {
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 5px 5px 0px rgba(231, 231, 231, 1);
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.contact-us .box img {
+    transform: translateY(-40px);
+}
+
+.contact-us h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    user-select: none;
+    color: #EC008C;
+}
+
+.contact-us h5 {
+    font-weight: 600;
+    color: black;
+    padding-bottom: 10px;
+    color: #EC008C;
+    user-select: none;
+}
+
+.contact-us a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #8D8D8D;
+    transition: 0.7s;
+}
+
+.contact-us a:hover {
+    color: #EC008C;
+}
+
+/* End Contact Us */
+
+/* Footer */
+footer {
+    background-color: #FBFBFB;
+    box-shadow: -10px 0px 5px 0px rgba(231, 231, 231, 1);
+}
+
+footer h5 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+footer p {
+    font-size: 14px;
+    color: #6A6A6A;
+}
+
+footer h6 {
+    font-size: 12px;
+    color: #6A6A6A;
+    user-select: none;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+footer span {
+    color: #EC008C;
+}
+
+/* End Footer */
+
+/* Media Screen */
+
+/* Medium Size */
+@media screen and (max-width: 768px) {
+
+    .socmed {
+        text-align: center !important;
+    }
+
+    .hiring h5,
+    .hiring h2,
+    .hiring a {
+        text-align: center !important;
+        display: block;
+    }
+
+    .hero-text {
+        order: 2;
+    }
+
+    .hero-pic {
+        order: 1;
+    }
+}
+
+/* End Medium Size */
+
+/* Large Size */
+@media screen and (max-width: 992px) {
+
+    a.btn.btn-block.btn-sm.w-sm-auto {
+        border-radius: 0;
+    }
+}
+
+/* End Large Size */
+
+/* End Media Screen */
